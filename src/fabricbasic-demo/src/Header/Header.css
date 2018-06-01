@@ -1,0 +1,50 @@
+.app-header{
+    background-color: #000;
+    color: #cccccc;
+    height: 34px;
+}
+
+.app-header-content{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1160px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    font-size: 18px;
+}
+
+.left .death-star-text{
+    margin-top: 4px;
+    margin-left: 7px;
+}
+
+.right {
+    display: flex;
+}
+
+.right .profile{
+    margin-left: 5px;
+    margin-top: 4px;
+    display: flex
+}
+
+.right .profile .profile-text{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.search .ms-TextField-field{
+    opacity: 0.8
+}
+
+.search .ms-TextField-fieldGroup{
+    background-color: black;
+    border: none
+}
+

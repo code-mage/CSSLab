@@ -1,0 +1,15 @@
+body {
+  font-family: 'Open Sans';
+}
+
+.app {
+  text-align: center;
+  background: #fafafa;
+}
+
+.content{
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 2000px;
+}

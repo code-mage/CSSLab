@@ -1,0 +1,54 @@
+.release-section {
+    background: white;
+    padding: 16px 20px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.release-header {
+    display: flex;
+    font-size:20px;
+}
+
+.header-info {
+    padding-left: 5px;
+}
+
+.header-icon {
+    font-size: 12px;
+    margin-top: 7px;
+    margin-right: 12px;
+}
+
+.seperator-icon {
+    font-size: 4px;
+    padding: 3px 10px;
+}
+
+.currently-deployed:after {
+    content: ' ';
+    width: 100%;
+    height: 56px;
+    right: -26px;
+    position: absolute;
+    border-left: 1px;
+    border-left-style: dashed;
+    top: 36px;
+    border-color: #666666;
+}
+
+.currently-deployed {
+    padding-bottom: 25px;
+}
+
+.header-icon.to-be-deployed-header-icon {
+    color: #a6a6a6;
+}
+.header-icon.to-be-deployed-header-icon {
+    color: #666666;
+}
+
+.release-content {
+    padding-left: 23px;
+    font-size: 14px;
+}

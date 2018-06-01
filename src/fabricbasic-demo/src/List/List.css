@@ -1,0 +1,42 @@
+.panel-content{
+    display: inline-block;
+}
+
+.panel-subheader{
+    display:flex;
+    position: absolute;
+    top: 0px;
+    background: white;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.panel-subheader-text{
+    font-size:22px;
+}
+ 
+.compass{
+    margin-left:5px;
+    margin-top:8px;
+    color: #a21736
+}
+
+.seperator{
+    width: 50%;
+    height: 1px;
+    margin: 10px auto;
+    border-bottom: 2px solid #a6a6a6;
+}
+
+.footer-buttons{
+    position: absolute;
+    bottom: 0px;
+    background: white;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.sections{
+    margin-top: 50px;
+}

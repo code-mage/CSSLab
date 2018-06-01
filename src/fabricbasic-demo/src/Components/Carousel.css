@@ -1,0 +1,75 @@
+.carousel-container {
+    position: relative;
+    margin: 0
+}
+
+.carousel-control{
+    width:100%;
+    position: relative;
+}
+
+.carousel-indicators{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    opacity:0.7;
+    bottom: 10px;
+    z-index:9999;
+}
+
+.carousel-wrapper{
+    height: 600px;
+}
+
+
+.carousel-wrapper,
+.carousel-wrapperHomePage {
+    position: relative;
+    overflow: hidden
+}
+
+.carousel-wrapper:hover .carousel-nav a,
+.carousel-wrapperHomePage:hover .carousel-nav a {
+    display: block
+}
+
+.carousel {
+    position: absolute
+}
+
+.carousel .carousel-item {
+    float: left;
+    margin-right: 12.5px;
+    margin-left: 1px
+}
+
+.carousel .carousel-item:nth-last-child(1) {
+    margin-right: 0
+}
+
+.item-carousel.images .carousel .carousel-item {
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+
+.carousel-indicators {
+    text-align: center;
+    margin-top: 5px
+}
+
+.carousel-indicators .indicator {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    margin-right: 8px;
+    border: 1px solid
+}
+
+.carousel-indicators .indicator.active,
+.carousel-indicators .indicator:hover {
+    background: rgba(0, 0, 0, 1)
+}
