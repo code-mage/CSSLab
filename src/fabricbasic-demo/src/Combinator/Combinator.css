@@ -1,0 +1,38 @@
+.combinator-header{
+    background-color: #000;
+    color: #cccccc;
+}
+
+.combinator-content{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1160px;
+    font-size: 24px;
+}
+
+
+
+/* STYLING FROM HERE */
+
+.combinator-content .test-div-child1{
+    color:red;
+}
+
+/* this will be invalid */
+.combinator-content > .test-div-child2{
+    color:yellow;
+}
+
+.test-div1 > .test-div-child2{
+    color:green;
+}
+
+.test-div1 ~ .text-div {
+    color: orange;
+}
+
+.test-div1 + .text-div {
+    color: blue;
+}
+

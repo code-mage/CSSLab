@@ -1,0 +1,39 @@
+.overflow-header{
+    background-color: #000;
+    color: #cccccc;
+}
+
+.overflow-content{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1160px;
+    font-size: 24px;
+}
+
+.overflow-left{
+    height:300px;
+}
+
+
+/* STYLING FROM HERE */
+
+.overflow-header.one .overflow-left{
+    overflow: hidden;
+}
+
+.overflow-header.two .overflow-left{
+    overflow: scroll;
+}
+
+.overflow-header.three .overflow-left{
+    overflow-x: hidden;
+    width: 90px;
+}
+
+
+.overflow-header.four .overflow-left{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 90px;
+}

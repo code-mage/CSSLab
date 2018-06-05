@@ -1,0 +1,35 @@
+.selector-header{
+    background-color: #000;
+    color: #cccccc;
+}
+
+.selector-content{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1160px;
+    font-size: 24px;
+}
+
+
+
+/* STYLING FROM HERE */
+
+.test-div1::before{
+    content: "Read this -";
+    color: red;
+}
+
+.test-div2::selection{
+    color: blue;
+    background-color: yellow;
+}
+
+.test-div3:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+.selector-content .cell:nth-child(2)::after{
+    content: " - Second child";
+}

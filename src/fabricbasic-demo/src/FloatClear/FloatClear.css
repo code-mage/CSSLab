@@ -1,0 +1,46 @@
+.float-clear-header{
+    background-color: #000;
+    color: #cccccc;
+    height: 100px;
+}
+
+.float-clear-content{
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1160px;
+    font-size: 24px;
+}
+
+.float-clear-left{
+    border: 1px white solid;
+}
+.float-clear-right{
+    border: 1px white solid;
+}
+
+/* STYLING FROM HERE */
+
+.float-clear-header.one .float-clear-left{
+    float: left;
+}
+
+.float-clear-header.two .float-clear-left{
+    float: right;
+}
+
+.float-clear-header.three .float-clear-left{
+    float: left;
+}
+
+.float-clear-header.three .float-clear-right{
+    clear: left;
+}
+
+.float-clear-header.four .float-clear-left{
+    float: right;
+}
+
+.float-clear-header.four .float-clear-right{
+    clear: right;
+}
