@@ -11,6 +11,7 @@ import './App.css';
 // import Overflow from './Overflow/Overflow';
 // import Combinator from './Combinator/Combinator';
 // import Combinator from './Combinator/Combinator';
+// import DisplayExample from './DisplayExample/DisplayExample';
 import PseudoSelectors from './PseudoSelectors/PseudoSelectors';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
       <div className="app">
         <div className ="content">
          <PseudoSelectors/>
+         {/* <DisplayExample/> */}
         </div>        
       </div>
     );
