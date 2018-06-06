@@ -12,6 +12,7 @@ import './App.css';
 // import Combinator from './Combinator/Combinator';
 // import Combinator from './Combinator/Combinator';
 // import DisplayExample from './DisplayExample/DisplayExample';
+// import PositionsExample from './Positions/PositionsExample';
 import PseudoSelectors from './PseudoSelectors/PseudoSelectors';
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
         <div className ="content">
          <PseudoSelectors/>
          {/* <DisplayExample/> */}
+         {/* <PositionsExample/> */}
         </div>        
       </div>
     );

@@ -1,0 +1,22 @@
+.poisiton-example {
+    height: 500px;
+    border: 1px solid #c8c8c8;
+    margin-top: 100px;
+    /* position: relative; */
+}
+
+.positioned-child {
+    height: 200px;
+    width: 300px;
+    background: lightcoral;
+    /* position: absolute;
+    top: 0; */
+}
+
+/* .child1{
+    z-index:1;
+}
+
+.child2{
+    background: yellow;
+} */
